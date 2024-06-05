@@ -4,12 +4,11 @@ const CardItem = props => {
 
   return (
     <div className={`${objData.className} card`}>
-      <ul className="className">
-        <li>
-          {' '}
+      <ul>
+        <li className="className">
           <h1>{objData.title}</h1>
         </li>
-        <li>
+        <li className="className">
           <p>{objData.description}</p>
         </li>
       </ul>
